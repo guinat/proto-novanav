@@ -63,13 +63,13 @@ export default function ProfileScreen() {
 
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Preferences</Text>
-          
+
           {renderSettingItem(
             <Compass size={24} color={Colors.ui.primary} />,
             'Default Transport Mode',
             transportModes.find(m => m.id === preferences.defaultMode)?.name,
           )}
-          
+
           {renderSettingItem(
             <Moon size={24} color={Colors.ui.primary} />,
             'Dark Mode',
@@ -81,7 +81,7 @@ export default function ProfileScreen() {
               thumbColor="white"
             />
           )}
-          
+
           {renderSettingItem(
             <MapPin size={24} color={Colors.ui.primary} />,
             'Distance Units',
@@ -97,19 +97,19 @@ export default function ProfileScreen() {
 
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Account</Text>
-          
+
           {renderSettingItem(
             <Shield size={24} color={Colors.ui.primary} />,
             'Privacy Settings',
             'Manage your data and privacy',
           )}
-          
+
           {renderSettingItem(
             <Bell size={24} color={Colors.ui.primary} />,
             'Notifications',
             'Configure app notifications',
           )}
-          
+
           {renderSettingItem(
             <HelpCircle size={24} color={Colors.ui.primary} />,
             'Help & Support',
@@ -126,7 +126,7 @@ export default function ProfileScreen() {
           style={styles.logoutButton}
         />
 
-        <Text style={styles.versionText}>RouteQuest v1.0.0</Text>
+        <Text style={styles.versionText}>NovaNav 1.0.0</Text>
       </ScrollView>
     </SafeAreaView>
   );

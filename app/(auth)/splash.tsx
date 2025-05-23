@@ -51,7 +51,7 @@ export default function SplashScreen() {
         <View style={styles.iconContainer}>
           <MapPin size={64} color="white" />
         </View>
-        <Text style={styles.appName}>RouteQuest</Text>
+        <Text style={styles.appName}>NovaNav</Text>
         <Text style={styles.tagline}>Your Journey, Your Way</Text>
       </Animated.View>
     </LinearGradient>

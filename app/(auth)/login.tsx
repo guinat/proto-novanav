@@ -45,7 +45,7 @@ export default function LoginScreen() {
             <MapPin size={32} color={Colors.ui.primary} />
           </View>
           <Text style={styles.title}>Welcome Back</Text>
-          <Text style={styles.subtitle}>Sign in to continue with RouteQuest</Text>
+          <Text style={styles.subtitle}>Sign in to continue with NovaNav</Text>
         </View>
 
         <View style={styles.formContainer}>

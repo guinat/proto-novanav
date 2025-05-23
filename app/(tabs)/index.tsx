@@ -74,21 +74,21 @@ export default function SearchScreen() {
           </View>
         </View>
 
-        <TouchableOpacity 
+        <TouchableOpacity
           style={styles.recentSearchContainer}
-          onPress={() => setDestination('Central Park')}
+          onPress={() => setDestination('CY Tech')}
         >
           <View style={styles.recentSearchIcon}>
             <MapPin size={20} color="#666" />
           </View>
           <View style={styles.recentSearchTextContainer}>
-            <Text style={styles.recentSearchPrimary}>Central Park</Text>
-            <Text style={styles.recentSearchSecondary}>New York, NY</Text>
+            <Text style={styles.recentSearchPrimary}>CY Tech</Text>
+            <Text style={styles.recentSearchSecondary}>Cergy, 95000</Text>
           </View>
           <ChevronRight size={16} color="#999" />
         </TouchableOpacity>
 
-        <TouchableOpacity 
+        <TouchableOpacity
           style={styles.recentSearchContainer}
           onPress={() => setDestination('Brooklyn Bridge')}
         >

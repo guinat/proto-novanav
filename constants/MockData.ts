@@ -59,7 +59,7 @@ export const mockRoutes = {
       steps: [
         { id: 's1', instruction: 'Start at Main Street', distance: 0, duration: 0 },
         { id: 's2', instruction: 'Turn right onto Oak Avenue', distance: 0.5, duration: 8 },
-        { id: 's3', instruction: 'Walk through Central Park', distance: 1.2, duration: 20 },
+        { id: 's3', instruction: 'Walk through CY Tech', distance: 1.2, duration: 20 },
         { id: 's4', instruction: 'Turn left onto Maple Street', distance: 0.4, duration: 5 },
         { id: 's5', instruction: 'Arrive at destination', distance: 0.2, duration: 2 },
       ],

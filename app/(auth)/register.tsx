@@ -44,7 +44,7 @@ export default function RegisterScreen() {
             <MapPin size={32} color={Colors.ui.primary} />
           </View>
           <Text style={styles.title}>Create Account</Text>
-          <Text style={styles.subtitle}>Sign up to get started with RouteQuest</Text>
+          <Text style={styles.subtitle}>Sign up to get started with NovaNav</Text>
         </View>
 
         <View style={styles.formContainer}>
